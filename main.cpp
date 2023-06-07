@@ -314,7 +314,7 @@ int main(int argc, char** argv)
                         cout << "Now dealer's score is: " << dealer.score << endl;
                     }
 
-                    if (user.score > 21 && dealer.score < 21)
+                    if (user.score > 21 && dealer.score =< 21)
                     {
                         cout << "You're bust! You lost your bet!";
                     }
